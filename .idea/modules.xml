@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Afvinkopdracht 1/Afvinkopdracht 1.iml" filepath="$PROJECT_DIR$/Afvinkopdracht 1/Afvinkopdracht 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/BI6_Humeyra_Copoglu.iml" filepath="$PROJECT_DIR$/BI6_Humeyra_Copoglu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testscripts/Testscripts.iml" filepath="$PROJECT_DIR$/Testscripts/Testscripts.iml" />
     </modules>
   </component>
 </project>

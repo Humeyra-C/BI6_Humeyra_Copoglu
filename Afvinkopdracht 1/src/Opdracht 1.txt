@@ -1,0 +1,62 @@
+Geef aan wat de Big O voor onderstaande code fragmenten is. De variabele n is
+bepalend voor de grootte van de dataset.
+
+a. = O(N)
+ int sum = 0;
+ for (int j = 0; j < n; j++) {
+    sum += j;
+ }
+
+b. = O(N^2)
+ int sum = 0;
+ for (int j = 0; j < n; j++) {
+    for (int k = 0; k < n; k++) {
+        sum += j * k;
+    }
+ }
+
+c. = O(N^3)
+ int sum = 0;
+ for (int j = 0; j < n; j++)
+    for (int k = 0; k < n; k++)
+        for (int l = 0; l < n; l++)
+            sum += j * k * l;
+
+d. = O(N)
+ for (int j = 0; j < n; j++)
+    sum++;
+ for (int j = 0; j < n; j++)
+    sum--;
+
+e. = O(N)
+ for (int j = 0; j < n; j++){
+    sum++;
+ for (int k = 0; k < n; k++)
+    sum--;}
+
+f. = O(N)
+ for (int j = 0; j < n; j++){
+    sum++; {
+    for (int k = 0; k < 100; k++)
+        sum--;
+    }
+ }
+
+g. = O(log N)
+ while (n > 0) {
+    n/=2;
+ }
+
+h. = O(N!)
+ void fac(int n) {
+    for(int i=0; i<n; i++) {
+        fac(n-1);
+    }
+ }
+
+i. O(N^2)
+ while (n > 0) {
+    while (n > 0){
+         n-- ;
+     }
+ }
