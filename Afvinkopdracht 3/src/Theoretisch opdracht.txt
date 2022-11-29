@@ -1,0 +1,20 @@
+1) Geef per stap aan hoe de stack eruit ziet bij het uitvoeren van de volgende
+operaties - we beginnen met een lege stack: push(5), push(3), pop(),
+push(2), push(8), pop(), pop(), push(9), push(1)
+
+    lege stack  =   {}
+    push(5)     =   {5}
+    push(3)     =   {5, 3}
+    pop()       =   {5}
+    push(2)     =   {5, 2}
+    push(8)     =   {5, 2, 8}
+    pop()       =   {5, 2}
+    pop()       =   {5}
+    push(9)     =   {5, 9}
+    push(1)     =   {5, 9, 1}
+
+2) Hoe kun je een stack gebruiken om te checken of de haakjes in een
+rekenkundige expressie goed zijn?
+
+    Pop van gesloten haakje tot je een open haakje ziet. Is de stack leeg en is er geen open haakje
+    gevonden voor de gesloten haakje, dan zijn de haakjes niet goed afgesloten.
